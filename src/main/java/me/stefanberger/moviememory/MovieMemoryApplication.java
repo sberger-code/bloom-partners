@@ -3,6 +3,7 @@ package me.stefanberger.moviememory;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import me.stefanberger.moviememory.resources.HelloWorldResource;
 
 public class MovieMemoryApplication extends Application<MovieMemoryConfiguration> {
     public static void main(String[] args) throws Exception {
