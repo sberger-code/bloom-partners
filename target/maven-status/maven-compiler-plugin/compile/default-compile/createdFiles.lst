@@ -1,5 +1,7 @@
+me/stefanberger/moviememory/model/Movie.class
+me/stefanberger/moviememory/resources/MovieResource.class
 me/stefanberger/moviememory/TemplateHealthCheck.class
-me/stefanberger/moviememory/MovieMemoryApplication.class
-me/stefanberger/moviememory/Saying.class
 me/stefanberger/moviememory/MovieMemoryConfiguration.class
-me/stefanberger/moviememory/HelloWorldResource.class
+me/stefanberger/moviememory/dao/MovieDao.class
+me/stefanberger/moviememory/model/Filmmaker.class
+me/stefanberger/moviememory/MovieMemoryApplication.class

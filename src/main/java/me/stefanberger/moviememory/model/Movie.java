@@ -1,35 +1,40 @@
 package me.stefanberger.moviememory.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
+import javax.persistence.*;
 import java.util.Collection;
 
-public class Movie {
-    private long id;
+@Entity
+public class Movie extends DomainObject {
+
     private String name;
+
     private int releaseYear;
+
     private int duration;
-    private Collection<Filmmaker> actor;
-    private Filmmaker director;
-    private Soundtrack soundtrack;
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "movie_actor",
+            joinColumns = {@JoinColumn(name = "movie_id")},
+            inverseJoinColumns = {@JoinColumn(name = "actor_id")}
+    )
+    private Collection<Actor> actors;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "director_id")
+    private Director director;
 
     public Movie() {
         // Jackson deserialization
     }
 
-    public Movie(long id, String name, int releaseYear, int duration, Collection<Filmmaker> actor, Filmmaker director, Soundtrack soundtrack) {
+    public Movie(int id, String name, int releaseYear, int duration, Collection<Actor> actors, Director director) {
         this.id = id;
         this.name = name;
         this.releaseYear = releaseYear;
         this.duration = duration;
-        this.actor = actor;
+        this.actors = actors;
         this.director = director;
-        this.soundtrack = soundtrack;
-    }
-
-    @JsonProperty
-    public long getId() {
-        return id;
     }
 
     public String getName() {
@@ -44,15 +49,19 @@ public class Movie {
         return duration;
     }
 
-    public Collection<Filmmaker> getActor() {
-        return actor;
+    public void setActors(Collection<Actor> actors) {
+        this.actors = actors;
     }
 
-    public Filmmaker getDirector() {
+    public Collection<Actor> getActors() {
+        return actors;
+    }
+
+    public void setDirector(Director director) {
+        this.director = director;
+    }
+
+    public Director getDirector() {
         return director;
-    }
-
-    public Soundtrack getSoundtrack() {
-        return soundtrack;
     }
 }

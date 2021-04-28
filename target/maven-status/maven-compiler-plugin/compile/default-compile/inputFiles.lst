@@ -1,5 +1,8 @@
+/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java
 /Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/TemplateHealthCheck.java
+/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/model/Movie.java
+/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/model/Soundtrack.java
 /Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/MovieMemoryConfiguration.java
-/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/HelloWorldResource.java
+/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/model/Filmmaker.java
 /Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java
-/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/Saying.java
+/Users/stefan/Dropbox/bewerbung/bloom-partners/work-sample/src/main/java/me/stefanberger/moviememory/dao/MovieDao.java
