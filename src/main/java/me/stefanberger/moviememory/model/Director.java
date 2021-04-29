@@ -1,23 +1,22 @@
 package me.stefanberger.moviememory.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import me.stefanberger.moviememory.dao.DirectorDao;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.Collection;
 
-@Entity
+@Entity(name = DirectorDao.TABLE_NAME)
 public class Director extends Filmmaker {
-
-    public Director() {
-        // Jackson deserialization
-    }
 
     @OneToMany(mappedBy = "director")
     private Collection<Movie> movies;
 
-    @JsonProperty("filmography")
-    public Collection<String> getFilmography() {
-        return moviesToFilmography(movies);
+    public Collection<Movie> getMovies() {
+        return movies;
+    }
+
+    public void setMovies(Collection<Movie> movies) {
+        this.movies = movies;
     }
 }

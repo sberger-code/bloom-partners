@@ -18,7 +18,7 @@ public class MovieMemoryConfiguration extends Configuration {
     }
 
     @JsonProperty("database")
-    public DataSourceFactory getDataSourceFactory() {
+    DataSourceFactory getDataSourceFactory() {
         return database;
     }
 }

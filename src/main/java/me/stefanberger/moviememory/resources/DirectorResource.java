@@ -4,32 +4,62 @@ import com.codahale.metrics.annotation.Timed;
 import io.dropwizard.hibernate.UnitOfWork;
 import me.stefanberger.moviememory.dao.DirectorDao;
 import me.stefanberger.moviememory.model.Director;
+import me.stefanberger.moviememory.model.Filmmaker;
 
+import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.Collection;
 
 @Path("/director")
 @Produces(MediaType.APPLICATION_JSON)
-public class DirectorResource extends Resource {
-
-    private DirectorDao dao;
+public class DirectorResource extends FilmmakerResource<Director> {
 
     public DirectorResource(DirectorDao dao) {
-        this.dao = dao;
+        super(dao);
     }
 
+    @Override
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @UnitOfWork
     @Timed
-    public Director create(Director director) {
-        return dao.create(director);
+    public Director create(@Valid Director director) {
+        return super.create(director);
     }
 
+    @Override
     @GET
     @UnitOfWork
     @Timed
-    public Director findById(@QueryParam("id") int id) {
-        return findOrThrow(id, dao::findById);
+    public Collection<Director> findAll() {
+        return super.findAll();
+    }
+
+    @Override
+    @GET
+    @Path("/{id}")
+    @UnitOfWork
+    @Timed
+    public Director findById(@PathParam("id") int id) {
+        return super.findById(id);
+    }
+
+    @PUT
+    @Path("/{id}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @UnitOfWork
+    @Timed
+    public Director update(@PathParam("id") int id, @Valid Director director) {
+        return super.update(id, director, Filmmaker::set);
+    }
+
+    @Override
+    @DELETE
+    @Path("/{id}")
+    @UnitOfWork
+    @Timed
+    public void delete(@PathParam("id") int id) {
+        super.delete(id);
     }
 }

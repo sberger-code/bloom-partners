@@ -1,12 +1,16 @@
 package me.stefanberger.moviememory.model;
 
+import me.stefanberger.moviememory.dao.MovieDao;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import java.util.Collection;
 
-@Entity
-public class Movie extends DomainObject {
+@Entity(name = MovieDao.TABLE_NAME)
+public class Movie extends AbstractDomainObject {
 
-    private String name;
+    @NotEmpty
+    private String title;
 
     private int releaseYear;
 
@@ -24,21 +28,8 @@ public class Movie extends DomainObject {
     @JoinColumn(name = "director_id")
     private Director director;
 
-    public Movie() {
-        // Jackson deserialization
-    }
-
-    public Movie(int id, String name, int releaseYear, int duration, Collection<Actor> actors, Director director) {
-        this.id = id;
-        this.name = name;
-        this.releaseYear = releaseYear;
-        this.duration = duration;
-        this.actors = actors;
-        this.director = director;
-    }
-
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
     public int getReleaseYear() {
@@ -63,5 +54,13 @@ public class Movie extends DomainObject {
 
     public Director getDirector() {
         return director;
+    }
+
+    public static void set(Movie target, Movie source) {
+        target.title = source.title;
+        target.releaseYear = source.releaseYear;
+        target.duration = source.duration;
+        target.actors = source.actors;
+        target.director = source.director;
     }
 }
