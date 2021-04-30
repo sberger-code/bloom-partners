@@ -31,12 +31,7 @@ public class MovieMemoryApplication extends Application<MovieMemoryConfiguration
     }
 
     @Override
-    public void run(MovieMemoryConfiguration configuration,
-                    Environment environment) {
-//        final TemplateHealthCheck healthCheck =
-//                new TemplateHealthCheck(configuration.getTemplate());
-//        environment.healthChecks().register("template", healthCheck);
-
+    public void run(MovieMemoryConfiguration configuration, Environment environment) {
         ActorDao actorDao = new ActorDao(hibernate.getSessionFactory());
         environment.jersey().register(new ActorResource(actorDao));
 

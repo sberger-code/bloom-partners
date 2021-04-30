@@ -3,6 +3,7 @@ package me.stefanberger.moviememory.resources;
 import com.codahale.metrics.annotation.Timed;
 import io.dropwizard.hibernate.UnitOfWork;
 import me.stefanberger.moviememory.dao.DirectorDao;
+import me.stefanberger.moviememory.model.Actor;
 import me.stefanberger.moviememory.model.Director;
 import me.stefanberger.moviememory.model.Filmmaker;
 
@@ -30,19 +31,21 @@ public class DirectorResource extends FilmmakerResource<Director> {
 
     @Override
     @GET
-    @UnitOfWork
-    @Timed
-    public Collection<Director> findAll() {
-        return super.findAll();
-    }
-
-    @Override
-    @GET
     @Path("/{id}")
     @UnitOfWork
     @Timed
     public Director findById(@PathParam("id") int id) {
         return super.findById(id);
+    }
+
+    @GET
+    @UnitOfWork
+    @Timed
+    public Collection<Director> filter(
+            @QueryParam("name") String name,
+            @QueryParam("movieTitle") String movieTitle
+    ) {
+        return super.filter(name, movieTitle);
     }
 
     @PUT

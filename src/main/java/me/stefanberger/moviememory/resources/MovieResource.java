@@ -11,7 +11,7 @@ import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Collection;
-import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -49,36 +49,27 @@ public class MovieResource extends AbstractResource<Movie> {
     @UnitOfWork
     @Timed
     public Collection<Movie> filter(
-            @QueryParam("title") Optional<String> title,
-            @QueryParam("releaseYear") Optional<Integer> releaseYear,
-            @QueryParam("duration") Optional<Integer> duration,
-            @QueryParam("actor") Optional<String> actor,
-            @QueryParam("director") Optional<String> director) {
-
-        Collection<Movie> movies = super.findAll();
-        Stream<Movie> movieStream = movies.stream();
-
-        if (title.isPresent()) {
-            movieStream = movieStream.filter((movie) -> movie.getTitle().contains(title.get()));
-        }
-
-        if (releaseYear.isPresent()) {
-            movieStream = movieStream.filter((movie) -> movie.getReleaseYear() == releaseYear.get());
-        }
-
-        if (duration.isPresent()) {
-            movieStream = movieStream.filter((movie) -> movie.getDuration() == duration.get());
-        }
-
-        if (actor.isPresent()) {
-            movieStream = movieStream.filter((movie) -> movie.getActors().stream().anyMatch((a) -> a.getName().contains(actor.get())));
-        }
-
-        if (director.isPresent()) {
-            movieStream = movieStream.filter((movie) -> movie.getDirector().getName().contains(director.get()));
-        }
-
+            @QueryParam("title") String title,
+            @QueryParam("releaseYear") Integer releaseYear,
+            @QueryParam("duration") Integer duration,
+            @QueryParam("actorName") String actorName,
+            @QueryParam("directorName") String directorName
+    ) {
+        Stream<Movie> movieStream = findAll().stream();
+        movieStream = filterBy(movieStream, title, (movie) -> movie.getTitle().contains(title));
+        movieStream = filterBy(movieStream, releaseYear, (movie) -> movie.getReleaseYear() == releaseYear);
+        movieStream = filterBy(movieStream, duration, (movie) -> movie.getDuration() == duration);
+        movieStream = filterBy(movieStream, actorName, (movie) -> movie.getActors().stream().anyMatch((actor) -> actor.getName().contains(actorName)));
+        movieStream = filterBy(movieStream, directorName, (movie) -> movie.getDirector().getName().contains(directorName));
         return movieStream.collect(Collectors.toList());
+    }
+
+    private <T> Stream<Movie> filterBy(Stream<Movie> movieStream, T condition, Function<Movie, Boolean> compare) {
+        if (condition == null) {
+            return movieStream;
+        } else {
+            return movieStream.filter(compare::apply);
+        }
     }
 
     @PUT

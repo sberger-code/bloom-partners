@@ -2,35 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a1c3a5b-96a9-489e-bfcf-98b618d995e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/AbstractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/ActorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/ActorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/DirectorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/DirectorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/MovieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/DomainObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/AbstractDomainObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Filmmaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Filmmaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/TemplateHealthCheck.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/AbstractResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/MovieMemoryConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/MovieMemoryConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/ActorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/ActorDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/DirectorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/DirectorDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/dao/MovieDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Actor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/DomainObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/MovieMemoryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/MovieMemoryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/TemplateHealthCheck.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Filmmaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Filmmaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/ActorResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/ActorResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/DirectorResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/DirectorResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/MovieResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/MovieResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/stefanberger/moviememory/resources/ActorResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-work-sample-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-work-sample-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work-sample-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/work-sample-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,26 +43,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
-          <entry key="java" value="147" />
-          <entry key="md" value="1" />
+          <entry key="java" value="151" />
+          <entry key="md" value="2" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="5" />
-          <entry key="yml" value="4" />
+          <entry key="xml" value="6" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="147" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="151" />
+          <entry key="Markdown" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="5" />
-          <entry key="YAML" value="4" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18654" />
+          <entry key="java" value="19997" />
+          <entry key="md" value="1031" />
           <entry key="sql" value="88" />
           <entry key="xml" value="188" />
           <entry key="yml" value="119" />
@@ -85,7 +71,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18654" />
+          <entry key="JAVA" value="19997" />
+          <entry key="Markdown" value="1031" />
           <entry key="SQL" value="88" />
           <entry key="XML" value="188" />
           <entry key="YAML" value="119" />
@@ -95,97 +82,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="52" column="69" lean-forward="true" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
+            <state relative-caret-position="930">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3184#3185#0" expanded="true" />
-                <element signature="e#3216#3217#0" expanded="true" />
+                <element signature="e#3372#3373#0" expanded="true" />
+                <element signature="e#3404#3405#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/AbstractDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/AbstractDomainObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Actor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Director.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Filmmaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
+                <element signature="e#1947#1948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/AbstractResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,19 +154,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -233,6 +178,10 @@
       <find>.get()</find>
       <find>!= null</find>
       <find>== null</find>
+      <find>work-sample</find>
+      <find>&gt;</find>
+      <find>Optional</find>
+      <find>find</find>
     </findStrings>
     <replaceStrings>
       <replace>T</replace>
@@ -277,18 +226,19 @@
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/DirectorDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/ActorDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/MovieDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/DomainObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/AbstractResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/service/MovieService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Filmmaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java" />
       </list>
     </option>
   </component>
@@ -317,12 +267,17 @@
           <item name="work-sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="work-sample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-26" />
+    <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="966" />
   </component>
@@ -373,31 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="moviememory" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moviememory" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moviememory" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +339,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619732086490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619771159548" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -471,30 +402,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75736000" />
+    <option name="totallyTimeSpent" value="84524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1680" height="966" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1680" height="966" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1965812" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1965812" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3295838" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.501221" side_tool="true" visible="true" weight="0.34983128" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.498779" weight="0.3295838" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32733408" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.498779" visible="true" weight="0.34983128" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3295838" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4993895" weight="0.3295838" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.3295838" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.29808775" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.498779" weight="0.29808775" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -608,14 +538,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/model/Soundtrack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -627,13 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -672,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-memory.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -785,31 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/ActorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/DirectorDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,16 +735,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -912,37 +789,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-memory.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/dao/ActorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/MovieMemoryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/AbstractResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="780">
           <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -951,12 +856,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/MovieResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="52" column="69" lean-forward="true" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
+        <state relative-caret-position="930">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3184#3185#0" expanded="true" />
-            <element signature="e#3216#3217#0" expanded="true" />
+            <element signature="e#3372#3373#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/DirectorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/FilmmakerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stefanberger/moviememory/resources/ActorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
           </folding>
         </state>
       </provider>
