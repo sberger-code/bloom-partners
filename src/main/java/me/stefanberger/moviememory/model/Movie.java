@@ -3,6 +3,7 @@ package me.stefanberger.moviememory.model;
 import me.stefanberger.moviememory.dao.MovieDao;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import java.util.Collection;
 
@@ -12,7 +13,7 @@ public class Movie extends AbstractDomainObject {
     @NotEmpty
     private String title;
 
-    @NotEmpty
+    @Min(value = 1, message = "must not be empty")
     private int releaseYear;
 
     private int duration;
