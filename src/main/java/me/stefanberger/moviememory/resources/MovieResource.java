@@ -37,6 +37,7 @@ public class MovieResource extends AbstractResource<Movie> {
         return dao.create(movie);
     }
 
+    @Override
     @GET
     @Path("/{id}")
     @UnitOfWork
@@ -56,11 +57,11 @@ public class MovieResource extends AbstractResource<Movie> {
             @QueryParam("directorName") String directorName
     ) {
         Stream<Movie> movieStream = findAll().stream();
-        movieStream = filterBy(movieStream, title, (movie) -> movie.getTitle().contains(title));
+        movieStream = filterBy(movieStream, title, (movie) -> movie.getTitle().toLowerCase().contains(title.toLowerCase()));
         movieStream = filterBy(movieStream, releaseYear, (movie) -> movie.getReleaseYear() == releaseYear);
         movieStream = filterBy(movieStream, duration, (movie) -> movie.getDuration() == duration);
-        movieStream = filterBy(movieStream, actorName, (movie) -> movie.getActors().stream().anyMatch((actor) -> actor.getName().contains(actorName)));
-        movieStream = filterBy(movieStream, directorName, (movie) -> movie.getDirector().getName().contains(directorName));
+        movieStream = filterBy(movieStream, actorName, (movie) -> movie.getActors().stream().anyMatch((actor) -> actor.getName().toLowerCase().contains(actorName.toLowerCase())));
+        movieStream = filterBy(movieStream, directorName, (movie) -> movie.getDirector().getName().toLowerCase().contains(directorName.toLowerCase()));
         return movieStream.collect(Collectors.toList());
     }
 

@@ -14,8 +14,4 @@ public class ActorDao extends AbstractDao<Actor> {
     public String getTableName() {
         return TABLE_NAME;
     }
-
-    public void delete(Actor actor) {
-        super.delete(actor);
-    }
 }

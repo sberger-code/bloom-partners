@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public abstract class Filmmaker extends AbstractDomainObject {
 
     @NotEmpty
-    protected String name;
+    String name;
 
     public void setName(String name) {
         this.name = name;

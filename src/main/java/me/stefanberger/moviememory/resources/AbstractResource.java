@@ -18,7 +18,11 @@ abstract class AbstractResource<T extends AbstractDomainObject> {
     }
 
     T create(@Valid T domainObject) {
-        return dao.create(domainObject);
+        if (domainObject == null) {
+            throw new BadRequestException("Missing request body");
+        } else {
+            return dao.create(domainObject);
+        }
     }
 
     Collection<T> findAll() {

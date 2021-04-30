@@ -8,7 +8,7 @@ import java.util.Collection;
 
 public abstract class AbstractDao<T extends AbstractDomainObject> extends AbstractDAO<T> {
 
-    public AbstractDao(SessionFactory factory) {
+    AbstractDao(SessionFactory factory) {
         super(factory);
     }
 

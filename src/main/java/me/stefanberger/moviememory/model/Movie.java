@@ -12,6 +12,7 @@ public class Movie extends AbstractDomainObject {
     @NotEmpty
     private String title;
 
+    @NotEmpty
     private int releaseYear;
 
     private int duration;

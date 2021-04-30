@@ -3,7 +3,6 @@ package me.stefanberger.moviememory.resources;
 import com.codahale.metrics.annotation.Timed;
 import io.dropwizard.hibernate.UnitOfWork;
 import me.stefanberger.moviememory.dao.DirectorDao;
-import me.stefanberger.moviememory.model.Actor;
 import me.stefanberger.moviememory.model.Director;
 import me.stefanberger.moviememory.model.Filmmaker;
 
@@ -29,7 +28,6 @@ public class DirectorResource extends FilmmakerResource<Director> {
         return super.create(director);
     }
 
-    @Override
     @GET
     @Path("/{id}")
     @UnitOfWork
