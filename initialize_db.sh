@@ -1,3 +1,5 @@
+#!/bin/sh
+
 curl -XPOST -H "Content-Type: application/json" -d '{ "name": "John Travolta" }' localhost:8080/actor
 curl -XPOST -H "Content-Type: application/json" -d '{ "name": "Samuel L. Jackson" }' localhost:8080/actor
 

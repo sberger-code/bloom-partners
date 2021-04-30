@@ -19,8 +19,8 @@ The Movie resource has the structure:
 
 Field | Type
 --- | ---
-`title` (mandatory | String
-`releaseYear` | Integer
+`title` (mandatory) | String
+`releaseYear` (mandatory) | Integer
 `duration` | Integer
 `actors` | Array of Actors
 `director` | Director
@@ -39,7 +39,7 @@ on the movie resource by providing an object with a value for the `name` propert
 a value for the `name` property (actors). If a value for the `id` property is given and an actor (or director) with 
 the given ID exists that actor (or director) is assigned to the movie.
 
-**Example:** See `initialize.sql` for example POST requests. 
+**Example:** See `initialize_db.sh` for example POST requests. 
 
 Using GET on any resource the entities can optionally be filtered by search terms. Fields of type String are searched
 for the substring. Fields of type Integer are compared whether they are equal to the search term.
